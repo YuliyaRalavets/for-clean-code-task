@@ -1,6 +1,6 @@
-package planeModels.planes;
+package planemodels.planes;
 
-import planeModels.Plane;
+import planemodels.Plane;
 
 public class CustomerPlane extends Plane {
 

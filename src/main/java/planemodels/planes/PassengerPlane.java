@@ -1,7 +1,7 @@
-package planeModels.planes;
+package planemodels.planes;
 
-import planeModels.Plane;
-import planeModels.PlaneProducer;
+import planemodels.Plane;
+import planemodels.PlaneProducer;
 
 import java.util.Objects;
 

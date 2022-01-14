@@ -1,9 +1,9 @@
-package planeModels.planes;
+package planemodels.planes;
 
-import planeModels.ClassificationLevel;
-import planeModels.PlaneProducer;
-import planeTypes.ExperimentalTypes;
-import planeModels.Plane;
+import planemodels.ClassificationLevel;
+import planemodels.PlaneProducer;
+import planetypes.ExperimentalTypes;
+import planemodels.Plane;
 
 import java.util.Objects;
 

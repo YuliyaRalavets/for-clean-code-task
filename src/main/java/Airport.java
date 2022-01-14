@@ -1,8 +1,8 @@
-import planeModels.planes.ExperimentalPlane;
-import planeTypes.MilitaryType;
-import planeModels.planes.MilitaryPlane;
-import planeModels.planes.PassengerPlane;
-import planeModels.Plane;
+import planemodels.planes.ExperimentalPlane;
+import planetypes.MilitaryType;
+import planemodels.planes.MilitaryPlane;
+import planemodels.planes.PassengerPlane;
+import planemodels.Plane;
 
 import java.util.ArrayList;
 import java.util.Collection;

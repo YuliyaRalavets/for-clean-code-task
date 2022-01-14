@@ -1,14 +1,14 @@
 import org.testng.annotations.BeforeMethod;
-import planeModels.PlaneProducer;
-import planeModels.planes.ExperimentalPlane;
-import planeModels.ClassificationLevel;
-import planeTypes.ExperimentalTypes;
-import planeTypes.MilitaryType;
+import planemodels.PlaneProducer;
+import planemodels.planes.ExperimentalPlane;
+import planemodels.ClassificationLevel;
+import planetypes.ExperimentalTypes;
+import planetypes.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import planeModels.planes.MilitaryPlane;
-import planeModels.planes.PassengerPlane;
-import planeModels.Plane;
+import planemodels.planes.MilitaryPlane;
+import planemodels.planes.PassengerPlane;
+import planemodels.Plane;
 
 import java.util.ArrayList;
 import java.util.Arrays;

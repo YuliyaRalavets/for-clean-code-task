@@ -1,4 +1,4 @@
-package planeModels;
+package planemodels;
 
 public enum PlaneProducer {
     BOEING_737("Boeing-737", 900, 12000, 60500),

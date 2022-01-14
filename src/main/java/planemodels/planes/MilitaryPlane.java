@@ -1,8 +1,8 @@
-package planeModels.planes;
+package planemodels.planes;
 
-import planeModels.PlaneProducer;
-import planeTypes.MilitaryType;
-import planeModels.Plane;
+import planemodels.PlaneProducer;
+import planetypes.MilitaryType;
+import planemodels.Plane;
 
 import java.util.Objects;
 
