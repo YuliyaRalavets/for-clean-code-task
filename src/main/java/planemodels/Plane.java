@@ -15,13 +15,6 @@ public class Plane {
         this.maxLoadCapacity = maxLoadCapacity;
     }
 
-    public Plane(PlaneProducer producer) {
-        this.model = producer.getModel();
-        this.maxSpeed = producer.getMaxSpeed();
-        this.maxFlightDistance = producer.getMaxFlightDistance();
-        this.maxLoadCapacity = producer.getMaxLoadCapacity();
-    }
-
     public String getModel() {
         return model;
     }

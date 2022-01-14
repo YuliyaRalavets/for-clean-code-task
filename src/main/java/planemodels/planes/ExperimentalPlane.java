@@ -1,7 +1,6 @@
 package planemodels.planes;
 
 import planemodels.ClassificationLevel;
-import planemodels.PlaneProducer;
 import planetypes.ExperimentalTypes;
 import planemodels.Plane;
 
@@ -14,12 +13,6 @@ public class ExperimentalPlane extends Plane {
 
     public ExperimentalPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, ExperimentalTypes experimentalType, ClassificationLevel classificationLevel) {
         super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this.experimentalType = experimentalType;
-        this.classificationLevel = classificationLevel;
-    }
-
-    public ExperimentalPlane(PlaneProducer producer, ExperimentalTypes experimentalType, ClassificationLevel classificationLevel) {
-        super(producer);
         this.experimentalType = experimentalType;
         this.classificationLevel = classificationLevel;
     }

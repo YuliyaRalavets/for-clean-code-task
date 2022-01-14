@@ -1,7 +1,6 @@
 package planemodels.planes;
 
 import planemodels.Plane;
-import planemodels.PlaneProducer;
 
 import java.util.Objects;
 
@@ -11,11 +10,6 @@ public class PassengerPlane extends Plane {
 
     public PassengerPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity) {
         super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this.passengersCapacity = passengersCapacity;
-    }
-
-    public PassengerPlane(PlaneProducer model, int passengersCapacity) {
-        super(model);
         this.passengersCapacity = passengersCapacity;
     }
 
