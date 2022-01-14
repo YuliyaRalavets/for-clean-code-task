@@ -1,8 +1,7 @@
-package planeModels.planes;
+package planemodels.planes;
 
-import planeModels.PlaneProducer;
-import planeTypes.MilitaryType;
-import planeModels.Plane;
+import planetypes.MilitaryType;
+import planemodels.Plane;
 
 import java.util.Objects;
 
@@ -12,11 +11,6 @@ public class MilitaryPlane extends Plane {
 
     public MilitaryPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, MilitaryType militaryType) {
         super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this.militaryType = militaryType;
-    }
-
-    public MilitaryPlane(PlaneProducer producer, MilitaryType militaryType) {
-        super(producer);
         this.militaryType = militaryType;
     }
 

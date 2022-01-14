@@ -1,4 +1,4 @@
-package planeModels;
+package planemodels;
 
 import java.util.Objects;
 
@@ -13,13 +13,6 @@ public class Plane {
         this.maxSpeed = maxSpeed;
         this.maxFlightDistance = maxFlightDistance;
         this.maxLoadCapacity = maxLoadCapacity;
-    }
-
-    public Plane(PlaneProducer producer) {
-        this.model = producer.getModel();
-        this.maxSpeed = producer.getMaxSpeed();
-        this.maxFlightDistance = producer.getMaxFlightDistance();
-        this.maxLoadCapacity = producer.getMaxLoadCapacity();
     }
 
     public String getModel() {
